@@ -68,10 +68,10 @@ python calc-za.py ifdb.csv "John Smith.csv"
 - If the journal is included in `ifdb.csv` but still not detected, add a
   journal name mapping to `dict.csv`.
 
-#### Optional: unadjusted weighting
+#### Optional: stricter weighting
 
-By default, `calc-za.py` uses the author-specific weighting function.
-To apply the unadjusted function, shown as the black solid curve in Fig. 1 of the manuscript, run:
+By default, `calc-za.py` uses the author-specific adjusted function.
+To apply the unadjusted function, shown as the solid curve in Fig. 1 of the manuscript, run:
 
 ```bash
 python calc-zj.py ifdb.csv "John Smith.csv"
