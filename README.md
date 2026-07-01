@@ -68,6 +68,15 @@ python calc-za.py ifdb.csv "John Smith.csv"
 - If the journal is included in `ifdb.csv` but still not detected, add a
   journal name mapping to `dict.csv`.
 
+#### Optional: unadjusted weighting
+
+By default, `calc-za.py` uses the author-specific weighting function.
+To apply the unadjusted function, shown as the black solid curve in Fig. 1 of the manuscript, run:
+
+```bash
+python calc-zj.py ifdb.csv "John Smith.csv"
+```
+
 ## Calculating Journal z- and z̃-Indices
 
 ### Step 1: Create a Journal-Specific Retraction List
