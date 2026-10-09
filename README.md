@@ -1,5 +1,9 @@
 # z- and z̃-Index Calculation Guide
 
+## About this guide
+
+This guide provides step-by-step instructions for calculating the z-index proposed in the arXiv paper [*An Index to Quantify Scientific Debt*](https://doi.org/10.48550/arXiv.2607.23011).
+
 ## Preparation
 
 Download the latest `retraction_watch.csv` file from the Retraction Watch GitLab:
